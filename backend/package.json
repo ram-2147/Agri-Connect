@@ -1,0 +1,21 @@
+{
+  "name": "agriconnect-backend",
+  "version": "1.0.0",
+  "description": "AgriConnect - Agricultural marketplace API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/utils/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4",
+    "morgan": "^1.12.1"
+  }
+}
